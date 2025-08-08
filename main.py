@@ -17,6 +17,8 @@ import google.generativeai as genai
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, HttpUrl
 import uvicorn
+from dotenv import load_dotenv
+load_dotenv()
 
 # ==============================================================================
 # 1. INITIAL SETUP (Loads once on startup)
