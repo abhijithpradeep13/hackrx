@@ -1,0 +1,11 @@
+# requirements.txt
+
+fastapi
+uvicorn[standard]
+requests
+PyMuPDF
+python-docx
+sentence-transformers
+google-generativeai
+faiss-cpu # Use faiss-cpu for easier deployment than the GPU version
+numpy
